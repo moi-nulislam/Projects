@@ -3,6 +3,169 @@
     margin: 0;
 }
 
-p {
-    background-color: brown;
+
+/* HEADER */
+
+.header-hero {
+    background-color: #1c1d25;
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    font-family: cursive;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    margin-left: 100px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 2px;
+}
+
+.nav-logo:hover {
+    color: #b0b2c3;
+}
+
+.nav-content-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    margin-right: 100px;
+}
+
+.nav-content {
+    text-decoration: none;
+    display: block;
+    padding-bottom: 0px;
+    font-family: League Spartan, Helvetica, Arial, sans-serif;
+    position: relative;
+    color: #b0b2c3;
+    transition: color .35s ease;
+    margin-right: 30px;
+}
+
+.nav-content:hover {
+    border-bottom: 4px solid rgb(0, 0, 171);
+}
+
+
+.header-img {
+    position: absolute;
+    right: 0px;
+}
+
+.info {
+    color: white;
+    width: 1110px;
+    height: 208px;
+    padding-left: 60px;
+    margin-left: 89.5px;
+    margin-right: 89.5px;
+    margin-top: 30vh;
+}
+.info h1 {
+    width: 577.062px;
+    height: 62px;
+    margin-bottom: 25px;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.info i {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.info div {
+    height: 50px;
+    width: 100px;
+    margin-top: 25px;
+    background-color: crimson;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info div a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white    ;
+}
+
+
+
+
+
+/* MAIN */
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: #1c1d25;
+    height: 50vh;
+    width: 100%;
+}
+.footer-logo {
+    font-family: cursive;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    margin-left: 46.5vw;
+    width: 60px;
+    height: 60px;
+}
+
+.footer-logo:hover {
+    color: #b0b2c3;
+}
+
+.footer-content-box {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: League Spartan, Helvetica, Arial, sans-serif;
+    position: relative;
+    color: #b0b2c3;
+    margin-right: 40px;
+}
+
+
+
+.tw:hover {
+    color: white;
+}
+.ld:hover {
+    color: rgb(23, 135, 255);
+}
+.gh:hover {
+    color: black;
+}
+.cp:hover {
+    color: cornflowerblue;
 }
